@@ -1,0 +1,70 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f9;
+    margin: 0;
+    padding: 0;
+}
+.container {
+    text-align: center;
+    color: #fff;
+    background-color: #000;
+    padding: 20px 10px;
+    font-family: 'Georgia', serif;
+}
+.title {
+    font-size: 2em;
+    font-weight: bold;
+    margin: 0;
+    line-height: 1.2;
+}
+.subtitle {
+    font-size: 1.2em;
+    margin: 0;
+}
+.chart-container {
+    padding: 10px;
+    text-align: center;
+}
+.chart {
+    width: 100%;
+    max-width: 800px;
+    margin: auto;
+}
+.line {
+    fill: none;
+    stroke: #9F353A;
+    stroke-width: 2px;
+}
+.label {
+    fill: #0F4C3A;
+    font-size: 12px;
+    font-weight: bold;
+}
+.label-bg {
+    fill: #FCFAF2;
+}
+.dot {
+    fill: #F05E1C;
+    stroke: #F05E1C;
+    stroke-width: 2px;
+}
+.shadow {
+    fill: #FFFFFB;
+    stroke: #FFFFFB;
+    stroke-width: 3px;
+    opacity: 0.8;
+}
+@media (min-width: 769px) {
+    .container {
+        padding: 50px 0;
+    }
+    .title {
+        font-size: 2.5em;
+    }
+    .subtitle {
+        font-size: 1.5em;
+    }
+    .chart-container {
+        padding: 20px;
+    }
+}
