@@ -161,7 +161,7 @@ function setupChart() {
                        .attr("cy", y(lastDataPoint.accumulate));
 
                     i++;
-                    setTimeout(draw, 100); // Adjust the speed of the animation by changing the timeout duration
+                    setTimeout(draw, 25); // Adjust the speed of the animation by changing the timeout duration
                 }
             }
 
